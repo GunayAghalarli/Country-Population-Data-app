@@ -46,7 +46,7 @@ To run the application locally, follow these steps:
    ```bash  
    npm run dev  
    ```  
-4. Open the application in your browser at [http://localhost:3000](http://localhost:3000).  
+4. Click the link on the terminal and open the application in your browser.  
 
 ## **Usage**  
 1. Select a country from the dropdown menu.  
