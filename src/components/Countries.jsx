@@ -55,9 +55,13 @@ export default function Countries(props) {
           label: country.name, // Country name as the label
           value: country, // Whole country object as the value (name + code)
         }))}
+        
         onChange={handleCountryChange} // Update selected countries on change
         placeholder="Select countries"
         display="chip"
+        filter // Enable filtering
+        filterPlaceholder="Search by country name" // Placeholder for filter input
+        filterBy="label" // Specify filter field 
         style={{ width: "20rem" }}
       />
       {props.selectedCountries.length > 0 && (
